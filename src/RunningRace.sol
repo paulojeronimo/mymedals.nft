@@ -9,21 +9,27 @@ contract RunningRace {
     uint public distance;
     Type public runningType;
 
-    constructor (string memory _name, uint _date, Type _runningType) {
+    constructor (string memory _name, uint _date, uint _distance) {
       name = _name;
       date = _date;
-      runningType = _runningType;
+      distance = _distance;
+      runningType = getTypeByDistance(_distance);
     }
 
-    function getType() public view returns (Type _runningType) {
-        if (distance == 5000)
+    function getTypeByDistance(uint _distance) public pure returns (Type) {
+        Type _runningType = Type.Other;
+        if (_distance == 5000)
             _runningType = Type.FiveK;
-        else if (distance == 10000)
+        else if (_distance == 10000)
             _runningType = Type.TenK;
-        else if (distance == 21097)
+        else if (_distance == 21000 || _distance == 21097)
             _runningType = Type.HalfMarathon;
-        else if (distance == 42195)
+        else if (_distance == 42000 || _distance == 42195)
             _runningType = Type.Marathon;
-        else _runningType = Type.Other;
+        return _runningType;
+    }
+
+    function getType() public view returns (Type) {
+        return getTypeByDistance(distance);
     }
 } 

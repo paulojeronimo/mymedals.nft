@@ -8,10 +8,17 @@ contract RunningRaceTest is Test {
     RunningRace sampa10k;
 
     function setUp() public {
-        sampa10k = new RunningRace("Sampa 10 K", 0, RunningRace.Type.TenK);
+        sampa10k = new RunningRace("Sampa 10 K", 0, 10_000);
     }
 
-    function testRunningRaceType() public {
-        //assertEq(sampa10k.runningType(), RunningRace.Type.TenK);
+    function testGetType() public {
+        assertEq(uint(RunningRace.Type.TenK), uint(sampa10k.getType()));
+    }
+
+    function testGetTypeByDistance() public {
+        RunningRace mutableRace = new RunningRace("Mutable Race", 0, 0);
+
+        assertEq(uint(RunningRace.Type.FiveK), uint(mutableRace.getTypeByDistance(5_000)));
+        assertEq(uint(RunningRace.Type.TenK), uint(mutableRace.getTypeByDistance(10_000)));
     }
 }
