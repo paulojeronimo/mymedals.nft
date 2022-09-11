@@ -5,14 +5,21 @@ import "forge-std/Test.sol";
 import "../src/Runner.sol";
 
 contract RunnerTest is Test {
-    Runner public runner;
-    address constant runnerAddr = address(0x1);
+    string constant n1 = "Pedro";
+    string constant n2 = "Paulo";
+    address constant a1 = address(0x1);
+    address constant a2 = address(0x2);
+
+    Runner public pedro;
+    Runner public paulo;
 
     function setUp() public {
-       runner = new Runner(runnerAddr, "Pedro");
+        pedro = new Runner(a1, n1);
+        paulo = new Runner(a2, n2);
     }
 
     function testRunnerName() public {
-        assertEq(runner.name(), "Pedro");
+        assertEq(pedro.name(), n1);
+        assertEq(paulo.name(), n2);
     }
 }
