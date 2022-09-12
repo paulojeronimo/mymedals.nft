@@ -1,0 +1,87 @@
+= MyMedals.NFT
+:toc: left
+:toc-title: {doctitle}
+:nofooter:
+:numbered:
+:icons: font
+:sectanchors:
+
+== Introdução
+
+*MyMedals.NFT* é a tradução do projeto *Medalha.NFT* para o inglês.
+
+Tanto o *Medalha.NFT* quanto *MyMedals.NFT* são, também, domínios
+registrados na https://unstoppabledomains.com/[Unstoppable Domains] por
+*Paulo Jerônimo*.
+Na URL https://paulojeronimo.com/medalha.nft há uma descrição do projeto
+elaborada, especificamente, para o
+https://www.ethereumbrasil.com/sp22hackathon[Hackathon - EthereumSP
+2022].
+Essa URL não descreve a versão comercial do MyMedals.NFT (que já está em
+processo de desenvolvimento para potenciais clientes).
+Ela trata apenas da versão "Hackathon".
+
+*A versão "Hackathon" do MyMedals.NFT* foi discutida com uma equipe
+que estava sem uma ideia, logo ao final da abertura desse Hackathon (por
+volta das 19h da Sexta-feira).
+Paulo Jerônimo, até esse momento, tinha a ideia mas estava sem equipe.
+
+A equipe encontrada (de 4 pessoas) tinha desenvolvedores e designers.
+A principio essa equipe demonstrou interesse pela ideia e quis
+participar de sua implementação.
+Porém, no Sábado pela manhã, a equipe caiu numa discussão para avaliar o
+valor de negócio da ideia.
+Ao final desse período resolveu abandonar a ideia e desistiu de
+implementá-la.
+Em seguida, dois de seus membros desistiram de participar do Hackathon.
+
+Por volta das 17h do Sábado foi formada uma <<segunda-equipe>> e, em
+conjunto, foi iniciada uma discussão sobre uma <<versao-pivotada,versão
+pivotada dessa primeira ideia>>.
+Essa discussão foi encerrada praticamente por volta das 21:30 da noite
+desse Sábado e o MVP deveria ser entregue até às 10h do Domingo.
+
+Apesar do esforço da <<segunda-equipe>> em desenvolver uma implementação
+para essa nova versão, infelizmente e tardiamente, na madrugada do
+Domingo descobriu-se que a ferramenta no-code escolhida para o
+desenvolvimento do frontend (https://www.adalo.com/[Adalo]) não oferece
+suporte ao desenvolvimento de aplicações Web3 envolvendo carteiras como
+o Metamask (por exemplo).
+Sendo assim, não haveria mais tempo hábil para a criação de um novo
+_frontend_.
+Da mesma forma, não houve tempo para o desenvolvimento dos _smart
+contracts_ e, por isso, o projeto não chegou a ser apresentado.
+
+Mas, *a <<segunda-equipe>> acredita no potencial educativo da
+implementação de sua ideia utilizando <<tecnologias,tecnologias muito
+interessantes para a construção de projetos Web3>>* e, por esse motivo,
+*resolveu continuar a codificação do projeto e disponibilizá-la, sob uma
+licença _open source_*, mesmo após o Hackathon.
+
+*O repositório Git* desse projeto está inicialmente, no GitHub, em
+https://github.com/paulojeronimo/mymedals.nft.
+
+[[segunda-equipe]]
+== Segunda equipe
+
+....
+Bel Young      -> https://www.linkedin.com/in/bel-young/
+Bianca Miranda -> https://www.linkedin.com/in/bbmiranda/
+Érica Vilela   -> https://www.linkedin.com/in/%C3%A9rica-vilela-b59556191/
+Julio Monteiro -> https://www.linkedin.com/in/juliomonteiro/
+Marcelo Shama  -> https://www.linkedin.com/in/marcelo-shama-3665b532/
+Paulo Jerônimo -> https://www.linkedin.com/in/paulojeronimo
+....
+
+[[versao-pivotada]]
+== Descrição do Projeto
+
+TODO
+
+[[tecnologias]]
+== Tecnologias
+
+* https://github.com/foundry-rs/foundry[Foundry].
+* https://nextjs.org/0[Next.js].
+* https://thirdweb.com/[Thirdweb].
+* https://filecoin.io/[Filecoin.io].
