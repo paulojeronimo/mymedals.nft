@@ -130,9 +130,9 @@ ao criador do Adalo, permanece sem resposta].
 Com essa dificuldade, até mesmo uma simples integração ao Metamask
 estava comprometida.
 
-NOTE: Na escrita desse texto foi, e passada a pressão do Hackathon,
-{uri-adalo-forum2}[esse post, demonstrando uma aplicação conectada a
-blockchain da NEAR, foi encontrado no fórum].
+NOTE: Passada a pressão do Hackathon, durante a escrita desse texto, foi
+encontrado {uri-adalo-forum2}[esse post no fórum da Adalo] demonstrando
+uma aplicação que se conecta a Blockchain da NEAR.
 
 Ao final dessa pesquisa já não havia mais tempo hábil para a criação de
 um novo _frontend_, mesmo usando outra alternativa no-code que poderia
