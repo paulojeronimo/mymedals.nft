@@ -131,7 +131,7 @@ Com essa dificuldade, até mesmo uma simples integração ao Metamask
 estava comprometida.
 
 NOTE: Na escrita desse texto foi, e passada a pressão do Hackathon,
-{uri-adalo-forum2}[esse post, demonsrando uma aplicação conectada a
+{uri-adalo-forum2}[esse post, demonstrando uma aplicação conectada a
 blockchain da NEAR, foi encontrado no fórum].
 
 Ao final dessa pesquisa já não havia mais tempo hábil para a criação de
