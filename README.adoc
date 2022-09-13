@@ -4,65 +4,146 @@
 :nofooter:
 :numbered:
 :icons: font
+:idprefix:
+:idseparator: -
 :sectanchors:
+
+// URIs
+:uri-mymedals-nft: https://mymedals.nft
+:uri-paulojeronimo-com: https://paulojeronimo.com
+:uri-carlamorim: https://www.linkedin.com/in/carlamorim/
+:uri-unstoppable-domains: https://unstoppabledomains.com
+:uri-unstoppable-domains-extension: https://unstoppabledomains.com/extension
+:uri-finisher-tech: https://finisher.tech/dapps
+:uri-finishers-dao: https://finishers.dao
+:uri-ethereum-ptbr-dao: https://ethereum.org/pt-br/dao/
+:uri-kairos-dao: https://kairos-dao.me/
+:uri-blockchainrio: https://www.blockchainrio.com.br/
+:uri-bubble: https://bubble.io/
+:uri-vulnerabilidade-social: https://pt.wikipedia.org/wiki/Vulnerabilidade_social
+:uri-medalha-nft: https://paulojeronimo.com/medalha.nft
+:uri-adalo: https://www.adalo.com/
+:uri-adalo-forum: https://forum.adalo.com/t/im-patrick-the-education-content-creator-at-adalo-former-adalo-expert-ama/19248/14
+:uri-adalo-forum2: https://forum.adalo.com/t/adalo-example-blockchain-application/23195
+
+// Atributos
+:MyMedalsNFT: {uri-mymedals-nft}[MyMedals.NFT]
+:PauloJeronimo: {uri-paulojeronimo-com}[Paulo Jerônimo]
+:UnstoppableDomains: {uri-unstoppable-domains}[Unstoppable Domains]
+:FinisherTech: {uri-finisher-tech}[Finisher.Tech]
+:FinishersDAO: {uri-finishers-dao}[Finishers.DAO]
+:BlockchainRio: {uri-blockchainrio}[Blockchain Rio]
+:Adalo: {uri-adalo}[Adalo]
+
+:marca: <<marcas,marca>>
+:marcas: <<marcas,marcas>>
+:atleta: <<atletas-vulneraveis,atleta>>
+:atletas: <<atletas-vulneraveis,atletas>>
+:kit-de-entrada: <<kit-de-entrada,Kit de Entrada>>
+:kits-de-entrada: <<kit-de-entrada,Kits de Entrada>>
+:vulnerabilidade-social: <<vulnerabilidade-social,vulnerabilidade social>>
 
 == Introdução
 
-*MyMedals.NFT* é a tradução do projeto *Medalha.NFT* para o inglês.
+O *{MyMedalsNFT}* é a versão multinacional, disponível inicialmente na
+língua inglesa, do projeto *Medalha.NFT*.
 
-Tanto o *Medalha.NFT* quanto *MyMedals.NFT* são, também, domínios
-registrados na https://unstoppabledomains.com/[Unstoppable Domains] por
-*Paulo Jerônimo*.
-Na URL https://paulojeronimo.com/medalha.nft há uma descrição do projeto
-elaborada, especificamente, para o
+Tanto o *MyMedals.NFT* quanto *Medalha.NFT* são, também, domínios
+registrados na {UnstoppableDomains} por *{PauloJeronimo}*, que é o
+*iniciador (ao invés de fundador) da {FinishersDAO}*.
+
+[[FinishersDAO]]
+== Finishers.DAO
+
+A {FinishersDAO} é a evolução da {FinisherTech}, a empresa fundada por
+{PauloJeronimo}, para um modelo de *Organização Autônoma Distribuída*.
+
+A *{FinishersDAO}* traduz o acrônimo *DAO* para *"Distributed Autonomous
+Organization"*, ao invés de {uri-ethereum-ptbr-dao}["Decentralized
+Autonomous Organization"].
+Isso pelo aprendizado obtido por {PauloJeronimo} em conversas com
+{uri-carlamorim}[Carl Amorim] até mesmo antes de sua participação no
+workshop em que o Carl, e o pessoal da DAO iniciada por ele (a
+{uri-kairos-dao}[Kairos]), ministrou no {BlockchainRio}.
+
+A *{FinishersDAO}* tem a seguinte missão: ::
+*Construir (ou migrar) aplicativos para a Web3 cujos objetivos
+contemplem o propósito de promover a Saúde e Bem-Estar das pessoas
+através dos esportes*.
+
+WARNING: Para acessar a {FinishersDAO}, bem como o {MyMedalsNFT}, você
+precisará instalar uma {uri-unstoppable-domains-extension}[extensão em
+seu browser] caso ele não seja um dos browsers que já suportam,
+nativamente, os "domínios imparáveis" (`.nft`, `.dao`, `.cryto`, etc)
+oferecidos pela {UnstoppableDomains}: *Brave* e *Opera*.
+
+[[versao-sp22hackathon]]
+== Versões do MyMedals.NFT e Equipes no "Hackathon EthereumSP 2022"
+
+[[equipe1]]
+=== Equipe 1
+
+Na URL {uri-medalha-nft} há uma descrição da *versão
+1* do MyMedals.NFT elaborada, especificamente, para o
 https://www.ethereumbrasil.com/sp22hackathon[Hackathon - EthereumSP
 2022].
-Essa URL não descreve a versão comercial do MyMedals.NFT (que já está em
-processo de desenvolvimento para potenciais clientes).
-Ela trata apenas da versão "Hackathon".
 
-*A versão "Hackathon" do MyMedals.NFT* foi discutida com uma equipe
-que estava sem uma ideia, logo ao final da abertura desse Hackathon (por
-volta das 19h da Sexta-feira).
-Paulo Jerônimo, até esse momento, tinha a ideia mas estava sem equipe.
+NOTE: Essa URL não descreve a versão comercial do MyMedals.NFT (que já
+está em processo de desenvolvimento para potenciais clientes).  Ela
+trata apenas da versão "Hackathon".
+
+*Essa versão do MyMedals.NFT* foi discutida com uma equipe que estava
+sem uma ideia, logo ao final da abertura desse Hackathon (por volta das
+19h da Sexta-feira).
+Até esse momento {PauloJeronimo} já tinha descrito e publicado sua ideia
+em seu site mas, ainda estava sem uma equipe.
+
+Ao final dos _bootcamps_ da EthereumSP, e da cerimônia de abertura do
+hackathon, houve um momento para a formação de equipes (para quem estava
+sem uma).
 
 A equipe encontrada (de 4 pessoas) tinha desenvolvedores e designers.
-A principio essa equipe demonstrou interesse pela ideia e quis
+A princípio essa equipe demonstrou interesse pela ideia e quis
 participar de sua implementação.
-Porém, no Sábado pela manhã, a equipe caiu numa discussão para avaliar o
-valor de negócio da ideia.
+Porém, no Sábado pela manhã, a equipe encontrada caiu numa discussão
+interminável para avaliar o valor comercial da ideia.
 Ao final desse período resolveu abandonar a ideia e desistiu de
 implementá-la.
 Em seguida, dois de seus membros desistiram de participar do Hackathon.
 
-Por volta das 17h do Sábado foi formada uma <<segunda-equipe>> e, em
-conjunto, foi iniciada uma discussão sobre uma <<versao-pivotada,versão
-pivotada dessa primeira ideia>>.
-Essa discussão foi encerrada praticamente por volta das 21:30 da noite
-desse Sábado e o MVP deveria ser entregue até às 10h do Domingo.
+[[equipe2]]
+=== Equipe 2
 
-Apesar do esforço da <<segunda-equipe>> em desenvolver uma implementação
-para essa nova versão, infelizmente e tardiamente, na madrugada do
-Domingo descobriu-se que a ferramenta no-code escolhida para o
-desenvolvimento do frontend (https://www.adalo.com/[Adalo]) não oferece
-suporte ao desenvolvimento de aplicações Web3 envolvendo carteiras como
-o Metamask (por exemplo).
-Sendo assim, não haveria mais tempo hábil para a criação de um novo
-_frontend_.
-Da mesma forma, não houve tempo para o desenvolvimento dos _smart
-contracts_ e, por isso, o projeto não chegou a ser apresentado.
+Por volta das 17h do Sábado foi formada uma segunda equipe e, nela,
+trocas de ideias levaram a uma <<versao-pivotada,versão pivotada>> do
+que está descrito em {uri-medalha-nft}.
+Essa discussão, e um _frontend_ escrito na ferramenta no-code {Adalo},
+foi encerrada praticamente por volta das 21:30 da noite desse Sábado.
+O MVP deveria ser entregue até às 10h do Domingo.
 
-Mas, *a <<segunda-equipe>> acredita no potencial educativo da
-implementação de sua ideia utilizando <<tecnologias,tecnologias muito
-interessantes para a construção de projetos Web3>>* e, por esse motivo,
-*resolveu continuar a codificação do projeto e disponibilizá-la, sob uma
-licença _open source_*, mesmo após o Hackathon.
+Apesar do esforço da equipe em desenvolver uma implementação para essa
+nova versão, infelizmente e tardiamente (já na madrugada do Domingo),
+numa pesquisa não foram encontrados exemplos que oferessem uma visão de
+integração do {Adalo} a carteiras de criptomoedas.
+Até mesmo {uri-adalo-forum}[essa pergunta sobre Web3, feita diretamente
+ao criador do Adalo, permanece sem resposta].
+Com essa dificuldade, até mesmo uma simples integração ao Metamask
+estava comprometida.
 
-*O repositório Git* desse projeto está inicialmente, no GitHub, em
-https://github.com/paulojeronimo/mymedals.nft.
+NOTE: Na escrita desse texto foi, e passada a pressão do Hackathon,
+{uri-adalo-forum2}[esse post, demonsrando uma aplicação conectada a
+blockchain da NEAR, foi encontrado no fórum].
 
-[[segunda-equipe]]
-== Segunda equipe
+Ao final dessa pesquisa já não havia mais tempo hábil para a criação de
+um novo _frontend_, mesmo usando outra alternativa no-code que poderia
+ser rápida, como o {uri-bubble}[Bubble] que já suporta e apresenta
+vários exemplos de integração a aplicações Web3.
+Da mesma forma, já não havia "espaço" (em horas) para o desenvolvimento
+dos _smart contracts_ do projeto.
+Dessa forma, a <<versao-pivotada,apresentação da versão pivotada do
+projeto>> foi cancelada!
+
+==== Integrantes
 
 ....
 Bel Young      -> https://www.linkedin.com/in/bel-young/
@@ -73,15 +154,136 @@ Marcelo Shama  -> https://www.linkedin.com/in/marcelo-shama-3665b532/
 Paulo Jerônimo -> https://www.linkedin.com/in/paulojeronimo
 ....
 
-[[versao-pivotada]]
-== Descrição do Projeto
+== Pós Hackathon
 
-TODO
+=== Novo propósito
+
+*Membros da <<equipe2>> acreditam no potencial educativo da
+implementação de sua ideia utilizando <<tecnologias,tecnologias
+interessantes na construção de projetos Web3>>* e, por esse motivo,
+*resolveram continuar a codificação do projeto e disponibilizá-lo, sob
+uma licença _open source_*, mesmo após o Hackathon.
+
+Além disso, ao tornar essa implementação _open source_, outro objetivo é
+oferecer a <<FinishersDAO>> o trabalho de buscar investidores (grandes
+marcas esportivas) e desenvolvedores que serão pagos por funcionalidades
+implementadas e testadas para esse projeto.
+
+[[versao-pivotada]]
+=== Versão pivotada do MyMedals.NFT
+
+A versão pivotada do MyMedals.NFT foi idealizada por {PauloJeronimo} e
+contou com ideias de outros membros da <<equipe2>>.
+Essa versão passou a ser ainda mais social e contempla as seguintes
+finalidades/ funcionalidades:
+
+. [[marcas]] [[atletas-vulneraveis]] [[vulnerabilidade-social]]
+  *Apresentar potenciais ATLETAS, EM CONDIÇÃO DE
+{uri-vulnerabilidade-social}[VULNERABILIDADE SOCIAL] e focando
+inicialmente em corredores de rua, a GRANDES MARCAS*.
+
+. [[desafios]] *Possibilitar que {marcas}, lancem desafios esportivos
+  que ajudarão os atletas com {kits-de-entrada},
+<<beneficios,benefícios>> e prêmios <<premios-em-nft,na forma de NFTs>>
+e <<premios-em-dinheiro,em dinheiro>> de forma progressiva*.
+
+. *Cada desafio é composto de três (3) provas esportivas, organizadas
+  por um mesmo organizador ou por diferentes organizadores, que
+possibilitem a elaboração de metas para {atletas} com um grau de
+dificuldade crescente*.
+
+. *Cada prova é organizada não pela {marca} mas, sim, por um organizador
+  de eventos esportivos.*
+.. A primeira prova é denominada Bronze.
+A segunda é a Prata e a terceira e última é a Ouro.
+.. Por exemplo, em se tratando do desafio "Nike/São Silvestre", duas
+provas anteriores a "São Silvestre" (uma corrida de 15 km) serão
+selecionadas pela Nike.
+A São Silvestre seria a "prova Ouro".
+A "prova Prata" pode ser uma corrida de rua de 10 km e a "prova Bronze"
+uma corrida na distância de 5 km.
+.. Outro exemplo, seria o desafio "Asics/10k".
+Nesse caso, a Asics poderia estar querendo ajudar {atletas} acostumados
+a correr provas de 10 km e estaria incentivando-os a concluirem três
+provas, na mesma distância, cada uma em um tempo menor que a anterior.
+
+. *O MyMedals.NFT consulta resultados de provas anteriores e utilizar
+  inteligência (humana e artificial) para verificar se o {atleta}
+realmente se encontra na situação de {vulnerabilidade-social} e
+incluí-lo na lista de {atletas} que podem ser selecionados pelas
+{marcas}*.
+... Inteligência humana é usada na busca por {atletas} nessa situação.
+Ela refere-se a possibilidade de que os {atletas} sejam recomendados e
+verificados por outros humanos.
+... Inteligência artificial também é utilizada para a verificação da
+participação do atleta em provas (através de fotos, listas de resultados
+em provas e treinos registrados em aplicativos) e para o cruzamento
+desses dados com bases de dados contendo pessoas em estado de
+{vulnerabilidade-social}.
+
+. [[kit-de-entrada]] *Kits de Entrada na forma de um NFT* são
+  distribruídos para os {atletas} no início do desafio.
+.. Esse NFT será utilizado pelo atleta para que ele vá até uma das lojas
+que vendem produtos da {marca} e receba os items que compõem o Kit.
+... Por exemplo, o Kit pode ser composto de um tênis, uma camiseta, um
+relógio e um boné (da marca ou de seus parceiros).
+... Esses items poderão ser retirados em quaisquer uma das lojas
+parceiras da marca e que vem seus produtos.
+
+. [[beneficios]] *Benefícios* que podem auxiliar os {atletas} a se
+  tornarem melhores podem ser oferecidos pelas {marcas}. Dentre os
+prováveis benefícios as possibilidades são:
+.. Auxílios para alimentação.
+.. Horas presenciais e/ou remotas com educadores físicos.
+
+. *Medalhas na forma de NFTs* são obtidos pelos {atletas} no
+  atingimento de suas metas em cada prova.
+.. Esses NFTs não poderão ser vendidos pelos {atletas}, por um _período
+de stake_ estipulado pela {marca} (via _smart contrat_).
+... Isso decorre da necessidade da marca de ter um tempo maior de
+exposição ao projeto social.
+... Além disso, a ideia é que o *NFT como medalha* passe a ter um valor
+maior para o {atleta}, durante esse período, pois o projeto social
+ficará mais conhecido e, possivelmente, o atleta também.
+.. Finalizado o _período de stake_, o atleta terá a opção de vender sua
+medalha (NFT), caso deseje.
+
+. [[premios-em-dinheiro]] *Prêmios em dinheiro* serão adquiridos pelos
+  {atletas} que alcançarem suas metas.
+.. A venda da coleção da "marca/desafio" permanece aberta "eternamente"
+até que todos os items sejam vendidos.
+.. Cada venda de um NFT dessa coleção repassa:
+... [[carteira-mymedals]] 80% para uma carteira compartilhada entre a
+MyMedals.NFT e os {atletas} (carteira-mymedals).
+... 20% para uma carteira da {marca}, para ajudá-la a custear suas
+despesas relativas ao oferencimento do {kit-de-entrada} do {atleta}, e
+outros benefícios que ela possa oferecer.
+.. Do valor repassado a <<carteira-mymedals>>:
+... *75% será repassado a carteira dos atletas*, da seguinte forma:
+.... *15%* aos que atingirem a *meta Bronze*.
+.... *25%* aos que atingirem a *meta Bronze*.
+.... *35%* aos que atingirem a *meta Ouro*.
+... *25% será retido pela MyMedals.NFT* para:
+.... Melhorias no aplicativo.
+.... Taxas de transação (da Blockchain).
+
+. Caso um {atleta} não atinja sua meta em alguma das provas do desafio,
+  o valor que seria repassado a ele será transferido para um _smart
+contract_ da própria MyMedals.NFT.
+O valor acumulado nesse contrato será utilizado pela MyMedals.NFT em
+próximos desafios, como sua própria {marca}.  Ou seja, esse valor ser
+utilizado para a criação e venda de NFTs da própria {marca}
+MyMedals.NFT, para criar desafios que ajudarão {atletas}).
 
 [[tecnologias]]
-== Tecnologias
+=== Tecnologias
 
 * https://github.com/foundry-rs/foundry[Foundry].
-* https://nextjs.org/0[Next.js].
 * https://thirdweb.com/[Thirdweb].
+* https://nextjs.org/0[Next.js].
 * https://filecoin.io/[Filecoin.io].
+
+=== Repositório Git
+
+*O repositório Git* desse projeto está inicialmente, no GitHub, em
+https://github.com/paulojeronimo/mymedals.nft.
