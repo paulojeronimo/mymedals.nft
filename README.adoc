@@ -182,20 +182,36 @@ finalidades/ funcionalidades:
 {uri-vulnerabilidade-social}[VULNERABILIDADE SOCIAL] e focando
 inicialmente em corredores de rua, a GRANDES MARCAS*.
 
-. [[desafios]] *Possibilitar que {marcas}, lancem desafios esportivos
-  que ajudarão os atletas com {kits-de-entrada},
-<<beneficios,benefícios>> e prêmios <<premios-em-nft,na forma de NFTs>>
-e <<premios-em-dinheiro,em dinheiro>> de forma progressiva*.
+. [[objetivo]] *Possibilitar que essas {marcas}, lancem
+  <<desafios,desafios esportivos>> na forma de coleções de NFTs*.
+.. Ao comprar um desses NFTs da coleção, uma pessoa receberá algum
+<<beneficios-do-nft,benefício da marca com seu NFT>> e, ao mesmo tempo,
+ajudará {atletas} em situação de {vulnerabilidade-social}.
+.. Cada NFT vendido ajudará vários {atletas} a ganharem um
+{kit-de-entrada} e a receberem, ao atingirem suas metas no desafio,
+<<beneficios-para-o-atleta,benefícios>> e prêmios <<premios-em-nft,na
+forma de NFTs>> e <<premios-em-dinheiro,em dinheiro>> de forma
+progressiva.
 
-. *Cada desafio é composto de três (3) provas esportivas, organizadas
-  por um mesmo organizador ou por diferentes organizadores, que
-possibilitem a elaboração de metas para {atletas} com um grau de
-dificuldade crescente*.
+. [[desafios]] *Cada desafio esportivo*:
+.. [[desafios-sao-colecoes-de-nfts]] É uma coleção de NFTs, oferecido no
+marketplace do MyMedals e em outros (como o OpenSea), na forma
+"marca/desafio".
+Cada item dessa coleção oferece, como benefícios ao seu comprador,
+algo de valor que a {marca} provê.
+... [[beneficios-do-nft]] Exemplos de benefícios que a compra de um NFT
+da marca provê:
+.... 20% de desconto na compra de um tênis que lançamos nesse mês.
+.... Dez minutos de bate papo com um atleta famoso que patrocinamos.
+.. [[desafios-sao-tres-provas]] Para um {atleta}, é composto de três (3)
+  provas esportivas, organizadas por um mesmo organizador ou por
+diferentes organizadores, que possibilitem a elaboração de metas para
+{atletas} com um grau de dificuldade crescente.
+... A primeira prova é denominada "Bronze".
+A segunda é a "Prata" e a terceira e última é a "Ouro".
 
 . *Cada prova é organizada não pela {marca} mas, sim, por um organizador
   de eventos esportivos.*
-.. A primeira prova é denominada Bronze.
-A segunda é a Prata e a terceira e última é a Ouro.
 .. Por exemplo, em se tratando do desafio "Nike/São Silvestre", duas
 provas anteriores a "São Silvestre" (uma corrida de 15 km) serão
 selecionadas pela Nike.
@@ -218,7 +234,7 @@ verificados por outros humanos.
 ... Inteligência artificial também é utilizada para a verificação da
 participação do atleta em provas (através de fotos, listas de resultados
 em provas e treinos registrados em aplicativos) e para o cruzamento
-desses dados com bases de dados contendo pessoas em estado de
+desses dados com bases de dados contendo pessoas em situação de
 {vulnerabilidade-social}.
 
 . [[kit-de-entrada]] *Kits de Entrada na forma de um NFT* são
@@ -230,9 +246,9 @@ relógio e um boné (da marca ou de seus parceiros).
 ... Esses items poderão ser retirados em quaisquer uma das lojas
 parceiras da marca e que vem seus produtos.
 
-. [[beneficios]] *Benefícios* que podem auxiliar os {atletas} a se
-  tornarem melhores podem ser oferecidos pelas {marcas}. Dentre os
-prováveis benefícios as possibilidades são:
+. [[beneficios-para-o-atleta]] *Benefícios* que a {marca} pode prover 
+  para ajudar os {atletas} em situação de {vulnerabilidade-social} são:
+.. Descontos em consultas e exames médicos especializados.
 .. Auxílios para alimentação.
 .. Horas presenciais e/ou remotas com educadores físicos.
 
