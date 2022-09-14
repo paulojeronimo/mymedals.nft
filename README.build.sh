@@ -17,4 +17,4 @@
 #   2) Publishes the 'build' dir to GitHub Pages:
 #   $ ./README.build.sh gh-pages
 
-docker-asciidoctor-builder "$@"
+GENERATE_PDF=${GENERATE_PDF:-true} docker-asciidoctor-builder "$@"

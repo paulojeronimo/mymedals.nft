@@ -7,9 +7,15 @@
 :idprefix:
 :idseparator: -
 :sectanchors:
+ifdef::backend-pdf[]
+:toc: macro
+:toc-title: Conteúdo
+:nofooter!:
+endif::[]
 
 // URIs
 :uri-mymedals-nft: https://mymedals.nft
+:uri-mymedals-nft-doc: https://paulojeronimo.com/mymedals.nft
 :uri-paulojeronimo-com: https://paulojeronimo.com
 :uri-carlamorim: https://www.linkedin.com/in/carlamorim/
 :uri-unstoppable-domains: https://unstoppabledomains.com
@@ -25,8 +31,9 @@
 :uri-adalo: https://www.adalo.com/
 :uri-adalo-forum: https://forum.adalo.com/t/im-patrick-the-education-content-creator-at-adalo-former-adalo-expert-ama/19248/14
 :uri-adalo-forum2: https://forum.adalo.com/t/adalo-example-blockchain-application/23195
+:uri-opensea: https://opensea.io
 
-// Atributos
+// Atributos externos
 :MyMedalsNFT: {uri-mymedals-nft}[MyMedals.NFT]
 :PauloJeronimo: {uri-paulojeronimo-com}[Paulo Jerônimo]
 :UnstoppableDomains: {uri-unstoppable-domains}[Unstoppable Domains]
@@ -34,19 +41,41 @@
 :FinishersDAO: {uri-finishers-dao}[Finishers.DAO]
 :BlockchainRio: {uri-blockchainrio}[Blockchain Rio]
 :Adalo: {uri-adalo}[Adalo]
+:OpenSea: {uri-opensea}[OpenSea]
 
+// Atributos internos
+:MyMedals: <<MyMedals,MyMedals>>
 :marca: <<marcas,marca>>
 :marcas: <<marcas,marcas>>
 :atleta: <<atletas-vulneraveis,atleta>>
 :atletas: <<atletas-vulneraveis,atletas>>
+:meta: <<metas,meta>>
+:metas: <<metas,metas>>
 :kit-de-entrada: <<kit-de-entrada,Kit de Entrada>>
 :kits-de-entrada: <<kit-de-entrada,Kits de Entrada>>
+:desafio-esportivo: <<desafios-esportivos,desafio esportivo>>
+:desafios-esportivos: <<desafios-esportivos,desafios esportivos>>
 :vulnerabilidade-social: <<vulnerabilidade-social,vulnerabilidade social>>
+:beneficios-para-atleta: <<beneficios-para-atleta,benefícios>>
+:medalhas-como-nfts: <<medalhas-como-nfts,Medalhas na forma de NFTs>>
+:premios-em-dinheiro: <<premios-em-dinheiro,Prêmios em dinheiro>>
 
+*Autor: Paulo Jerônimo -> https://paulojeronimo.com* +
+*Versão: {localdatetime}* +
+ifdef::backend-html5[]
+*Versão em PDF: link:mymedals.nft.pdf[]*
+endif::[]
+ifdef::backend-pdf[]
+*Versão online: {uri-mymedals-nft-doc}*
+
+toc::[]
+endif::[]
+
+<<<
 == Introdução
 
-O *{MyMedalsNFT}* é a versão multinacional, disponível inicialmente na
-língua inglesa, do projeto *Medalha.NFT*.
+[[MyMedals]] O *{MyMedalsNFT}* é a versão multinacional, disponível
+inicialmente na língua inglesa, do projeto *Medalha.NFT*.
 
 Tanto o *MyMedals.NFT* quanto *Medalha.NFT* são, também, domínios
 registrados na {UnstoppableDomains} por *{PauloJeronimo}*, que é o
@@ -77,24 +106,25 @@ seu browser] caso ele não seja um dos browsers que já suportam,
 nativamente, os "domínios imparáveis" (`.nft`, `.dao`, `.cryto`, etc)
 oferecidos pela {UnstoppableDomains}: *Brave* e *Opera*.
 
+<<<
 [[versao-sp22hackathon]]
-== Versões do MyMedals.NFT e Equipes no "Hackathon EthereumSP 2022"
+== Versões do MyMedals e Equipes no "Hackathon EthereumSP 2022"
 
 [[equipe1]]
 === Equipe 1
 
-Na URL {uri-medalha-nft} há uma descrição da *versão
-1* do MyMedals.NFT elaborada, especificamente, para o
+Na URL {uri-medalha-nft} há uma descrição da *versão 1* do {MyMedals}
+elaborada, especificamente, para o
 https://www.ethereumbrasil.com/sp22hackathon[Hackathon - EthereumSP
 2022].
 
-NOTE: Essa URL não descreve a versão comercial do MyMedals.NFT (que já
+NOTE: Essa URL não descreve a versão comercial do {MyMedals} (que já
 está em processo de desenvolvimento para potenciais clientes).  Ela
 trata apenas da versão "Hackathon".
 
-*Essa versão do MyMedals.NFT* foi discutida com uma equipe que estava
-sem uma ideia, logo ao final da abertura desse Hackathon (por volta das
-19h da Sexta-feira).
+Essa versão do {MyMedals} foi discutida com uma equipe que estava sem
+uma ideia, logo ao final da abertura desse Hackathon (por volta das 19h
+da Sexta-feira).
 Até esse momento {PauloJeronimo} já tinha descrito e publicado sua ideia
 em seu site mas, ainda estava sem uma equipe.
 
@@ -111,6 +141,7 @@ Ao final desse período resolveu abandonar a ideia e desistiu de
 implementá-la.
 Em seguida, dois de seus membros desistiram de participar do Hackathon.
 
+<<<
 [[equipe2]]
 === Equipe 2
 
@@ -154,6 +185,7 @@ Marcelo Shama  -> https://www.linkedin.com/in/marcelo-shama-3665b532/
 Paulo Jerônimo -> https://www.linkedin.com/in/paulojeronimo
 ....
 
+<<<
 == Pós Hackathon
 
 === Novo propósito
@@ -170,60 +202,61 @@ marcas esportivas) e desenvolvedores que serão pagos por funcionalidades
 implementadas e testadas para esse projeto.
 
 [[versao-pivotada]]
-=== Versão pivotada do MyMedals.NFT
+=== Versão pivotada do MyMedals
 
-A versão pivotada do MyMedals.NFT foi idealizada por {PauloJeronimo} e
+A versão pivotada do {MyMedals} foi idealizada por {PauloJeronimo} e
 contou com ideias de outros membros da <<equipe2>>.
 Essa versão passou a ser ainda mais social e contempla as seguintes
 finalidades/ funcionalidades:
 
 . [[marcas]] [[atletas-vulneraveis]] [[vulnerabilidade-social]]
-  *Apresentar potenciais ATLETAS, EM CONDIÇÃO DE
-{uri-vulnerabilidade-social}[VULNERABILIDADE SOCIAL] e focando
-inicialmente em corredores de rua, a GRANDES MARCAS*.
+  *Apresentar potenciais atletas em condição de
+{uri-vulnerabilidade-social}[vulnerabilidade social] a grandes marcas*.
+.. Foco inicial em participantes de corridas de rua.
 
-. [[objetivo]] *Possibilitar que essas {marcas}, lancem
-  <<desafios,desafios esportivos>> na forma de coleções de NFTs*.
-.. Ao comprar um desses NFTs da coleção, uma pessoa receberá algum
-<<beneficios-do-nft,benefício da marca com seu NFT>> e, ao mesmo tempo,
-ajudará {atletas} em situação de {vulnerabilidade-social}.
+. [[objetivo]] *Possibilitar que essas {marcas} lancem
+  {desafios-esportivos} na forma de <<marca-desafio,coleções de NFTs>>*.
+.. Ao comprar um dos NFTs da coleção, a pessoa receberá um
+<<beneficios-do-nft,benefício da marca>> e, ao mesmo tempo, ajudará
+{atletas} em situação de {vulnerabilidade-social}.
 .. Cada NFT vendido ajudará vários {atletas} a ganharem um
-{kit-de-entrada} e a receberem, ao atingirem suas metas no desafio,
-<<beneficios-para-o-atleta,benefícios>> e prêmios <<premios-em-nft,na
-forma de NFTs>> e <<premios-em-dinheiro,em dinheiro>> de forma
-progressiva.
+{kit-de-entrada} e a receberem, ao atingirem suas {metas} no desafio,
+{beneficios-para-atleta}, {medalhas-como-nfts} e {premios-em-dinheiro},
+de forma progressiva.
 
-. [[desafios]] *Cada desafio esportivo*:
-.. [[desafios-sao-colecoes-de-nfts]] É uma coleção de NFTs, oferecido no
-marketplace do MyMedals e em outros (como o OpenSea), na forma
-"marca/desafio".
-Cada item dessa coleção oferece, como benefícios ao seu comprador,
-algo de valor que a {marca} provê.
-... [[beneficios-do-nft]] Exemplos de benefícios que a compra de um NFT
-da marca provê:
-.... 20% de desconto na compra de um tênis que lançamos nesse mês.
-.... Dez minutos de bate papo com um atleta famoso que patrocinamos.
+. [[desafios-esportivos]] *Cada desafio esportivo*:
+.. [[marca-desafio]] É uma coleção de NFTs, nomeada na forma
+"marca/desafio", oferecido no _marketplace_ do {MyMedals} (e em outros
+como o {OpenSea}).
+Cada item dessa coleção oferece, como valor ao comprador, algo provido
+pela {marca}.
+... [[beneficios-do-nft]] Exemplos de benefícios providos por uma marca
+de tênis de corrida de rua:
+.... 20% de desconto na compra de um tênis que lançamos neste mês.
+.... Almoço pago com um atleta profissional que patrocinamos.
 .. [[desafios-sao-tres-provas]] Para um {atleta}, é composto de três (3)
-  provas esportivas, organizadas por um mesmo organizador ou por
-diferentes organizadores, que possibilitem a elaboração de metas para
-{atletas} com um grau de dificuldade crescente.
+provas esportivas, organizadas por um ou vários organizadores
+diferentes.
+Nessas provas são verificadas o atingimento de {metas} ajustadas pelo
+atleta com um grau de dificuldade crescente.
 ... A primeira prova é denominada "Bronze".
 A segunda é a "Prata" e a terceira e última é a "Ouro".
-
++
+<<<
 . *Cada prova é organizada não pela {marca} mas, sim, por um organizador
   de eventos esportivos.*
-.. Por exemplo, em se tratando do desafio "Nike/São Silvestre", duas
-provas anteriores a "São Silvestre" (uma corrida de 15 km) serão
-selecionadas pela Nike.
-A São Silvestre seria a "prova Ouro".
+.. Por exemplo, em se tratando do {desafio-esportivo} "Nike/São
+Silvestre", duas provas anteriores a "São Silvestre" (uma corrida de 15
+km) serão selecionadas pela Nike.
+A São Silvestre será a "prova Ouro".
 A "prova Prata" pode ser uma corrida de rua de 10 km e a "prova Bronze"
 uma corrida na distância de 5 km.
-.. Outro exemplo, seria o desafio "Asics/10k".
+.. Outro exemplo, seria o {desafio-esportivo} "Asics/10k".
 Nesse caso, a Asics poderia estar querendo ajudar {atletas} acostumados
 a correr provas de 10 km e estaria incentivando-os a concluirem três
 provas, na mesma distância, cada uma em um tempo menor que a anterior.
 
-. *O MyMedals.NFT consulta resultados de provas anteriores e utilizar
+. *O {MyMedals} consulta resultados de provas anteriores e utiliza
   inteligência (humana e artificial) para verificar se o {atleta}
 realmente se encontra na situação de {vulnerabilidade-social} e
 incluí-lo na lista de {atletas} que podem ser selecionados pelas
@@ -234,7 +267,7 @@ verificados por outros humanos.
 ... Inteligência artificial também é utilizada para a verificação da
 participação do atleta em provas (através de fotos, listas de resultados
 em provas e treinos registrados em aplicativos) e para o cruzamento
-desses dados com bases de dados contendo pessoas em situação de
+desses dados com outras bases contendo pessoas em situação de
 {vulnerabilidade-social}.
 
 . [[kit-de-entrada]] *Kits de Entrada na forma de um NFT* são
@@ -244,18 +277,31 @@ que vendem produtos da {marca} e receba os items que compõem o Kit.
 ... Por exemplo, o Kit pode ser composto de um tênis, uma camiseta, um
 relógio e um boné (da marca ou de seus parceiros).
 ... Esses items poderão ser retirados em quaisquer uma das lojas
-parceiras da marca e que vem seus produtos.
+parceiras da marca e que vendem seus produtos.
 
-. [[beneficios-para-o-atleta]] *Benefícios* que a {marca} pode prover 
-  para ajudar os {atletas} em situação de {vulnerabilidade-social} são:
+. [[metas]] *Metas* são perseguidas pelos {atletas} para ganharem seus
+  {beneficios-para-atleta}, suas {medalhas-como-nfts} e seus
+{premios-em-dinheiro}.
+.. Estipular as metas para um {atleta} é um papel do {MyMedals}.
+Ele analisa o histórico recente do {atleta} e, com base nessa análise,
+possibilita que o próprio atleta faça ajustes finos em suas metas para
+as três provas do {desafio-esportivo}, de forma progressiva.
+Contudo, ele coloca bloqueios que impedem o atleta de ajustar valores
+que tornem suas metas facilmente alcançáveis e, dessa forma, preserva
+uma propriedade que toda meta possui que é a de ser desafiadora.
+
+. [[beneficios-para-atleta]] *Benefícios* que a {marca} pode prover aos
+  {atletas} em situação de {vulnerabilidade-social} são, por exemplo:
 .. Descontos em consultas e exames médicos especializados.
-.. Auxílios para alimentação.
+.. Auxílios para a alimentação e suplementação.
 .. Horas presenciais e/ou remotas com educadores físicos.
-
-. *Medalhas na forma de NFTs* são obtidos pelos {atletas} no
-  atingimento de suas metas em cada prova.
-.. Esses NFTs não poderão ser vendidos pelos {atletas}, por um _período
-de stake_ estipulado pela {marca} (via _smart contrat_).
++
+<<<
+. [[medalhas-como-nfts]] *Uma medalha na forma de NFT* é obtida pelo
+  {atleta} quando ele atinge uma {meta} em uma prova do
+{desafio-esportivo}.
+.. Esse NFT não pode ser vendidos pelo {atletas}, durante um _período
+de stake_ estipulado pela {marca}.
 ... Isso decorre da necessidade da marca de ter um tempo maior de
 exposição ao projeto social.
 ... Além disso, a ideia é que o *NFT como medalha* passe a ter um valor
@@ -265,12 +311,12 @@ ficará mais conhecido e, possivelmente, o atleta também.
 medalha (NFT), caso deseje.
 
 . [[premios-em-dinheiro]] *Prêmios em dinheiro* serão adquiridos pelos
-  {atletas} que alcançarem suas metas.
-.. A venda da coleção da "marca/desafio" permanece aberta "eternamente"
-até que todos os items sejam vendidos.
+  {atletas} que alcançarem suas {metas}.
+.. A venda da <<marca-desafio,coleção da "marca/desafio">> permanece
+aberta "eternamente" até que todos os items sejam vendidos.
 .. Cada venda de um NFT dessa coleção repassa:
-... [[carteira-mymedals]] 80% para uma carteira compartilhada entre a
-MyMedals.NFT e os {atletas} (carteira-mymedals).
+... [[carteira-mymedals]] 80% para uma carteira compartilhada entre o
+{MyMedals} e os {atletas} (carteira-mymedals).
 ... 20% para uma carteira da {marca}, para ajudá-la a custear suas
 despesas relativas ao oferencimento do {kit-de-entrada} do {atleta}, e
 outros benefícios que ela possa oferecer.
@@ -279,18 +325,18 @@ outros benefícios que ela possa oferecer.
 .... *15%* aos que atingirem a *meta Bronze*.
 .... *25%* aos que atingirem a *meta Bronze*.
 .... *35%* aos que atingirem a *meta Ouro*.
-... *25% será retido pela MyMedals.NFT* para:
+... *25% será retido pela {MyMedals}* para:
 .... Melhorias no aplicativo.
 .... Taxas de transação (da Blockchain).
 
-. Caso um {atleta} não atinja sua meta em alguma das provas do desafio,
-  o valor que seria repassado a ele será transferido para um _smart
-contract_ da própria MyMedals.NFT.
-O valor acumulado nesse contrato será utilizado pela MyMedals.NFT em
-próximos desafios, como sua própria {marca}.  Ou seja, esse valor ser
-utilizado para a criação e venda de NFTs da própria {marca}
-MyMedals.NFT, para criar desafios que ajudarão {atletas}).
+. Caso um {atleta} não atinja sua meta em alguma das provas do
+  {desafio-esportivo}, o valor que seria repassado a ele nessa prova
+será transferido para a própria marca {MyMedals}.
+O valor acumulado nesse contrato será utilizado pela marca {myMedals},
+em desafios que ela própria lançar, e ajudará outros {atletas} que
+talvez estejam mais focados no atingimento de suas próprias metas.
 
+<<<
 [[tecnologias]]
 === Tecnologias
 
@@ -303,3 +349,10 @@ MyMedals.NFT, para criar desafios que ajudarão {atletas}).
 
 *O repositório Git* desse projeto está inicialmente, no GitHub, em
 https://github.com/paulojeronimo/mymedals.nft.
+
+Esse repositório Git, na _branch main_, contém os fontes deste documento
+(escritos no formato AsciiDoc) e, também, o código já elaborado para o
+projeto.
+
+A _branch gh-pages_ disponibiliza a versão HTML e a PDF deste documento
+através da URL {uri-mymedals-nft-doc}.
